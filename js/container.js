@@ -9,4 +9,6 @@ export default function container(board) {
     div.className = 'grid';
     _board.appendChild(div);
   }
+  const width = 10;
+  let squares = Array.from(d.querySelectorAll('.grid'));
 }
